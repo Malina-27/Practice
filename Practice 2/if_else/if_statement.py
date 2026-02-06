@@ -10,7 +10,6 @@ if x > 0:
 #Positive
 
 
-
 a = 10
 if a == 10:
     print("Ten")
