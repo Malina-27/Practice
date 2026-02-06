@@ -1,16 +1,14 @@
-age = 18
-if age >= 18:
-    print("Adult")
-#Adult
+# Example 1
+x = 10
+if x > 5:
+    print("x is greater than 5")  # Output: x is greater than 5
 
+# Example 2
+y = 3
+if y < 5:
+    print("y is less than 5")  # Output: y is less than 5
 
-x = 5
-if x > 0:
-    print("Positive")
-#Positive
-
-
-a = 10
-if a == 10:
-    print("Ten")
-#Ten
+# Example 3
+z = 0
+if z == 0:
+    print("z is zero")  # Output: z is zero
