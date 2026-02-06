@@ -84,3 +84,5 @@ print(type(c))
 import random
 
 print(random.randrange(1, 10))
+
+print(1+2.3+(1+2j))
