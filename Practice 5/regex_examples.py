@@ -93,6 +93,7 @@ import re
 txt = "The rain in Spain"
 x = re.search(r"\bS\w+", txt)
 print(x.span())
+# (12, 17)
 
 
 
@@ -102,6 +103,7 @@ import re
 txt = "The rain in Spain"
 x = re.search(r"\bS\w+", txt)
 print(x.string)
+# The rain in Spain
 
 
 
@@ -138,8 +140,8 @@ print(s)
 
 # 4.Write a Python program to find the sequences of one upper case letter followed by lower case letters.
 import re
-x="Hello python Regex"
-s=re.findall(r"[A-Z][a-b]+", x)
+x = "Hello python Regex"
+s = re.findall(r"[A-Z][a-z]+", x)
 print(s)
 
 # 5.Write a Python program that matches a string that has an 'a' followed by anything, ending in 'b'.
@@ -162,7 +164,7 @@ print(s)
 
 # 8.Write a Python program to split a string at uppercase letters.
 import re
-x = "The rain in Almaty"
+x = "The Rain In Almaty"
 s = re.split(r"[A-Z]", x)
 print(s)
 
